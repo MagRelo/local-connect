@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nginx:
+    container_name: nginx
+    build:
+      context: ./nginx/dev
+    ports:
+      - '80:80'
+    volumes:
+      - /:/etc/ssl
+      - /:/etc/letsencrypt
+      - /:/data/letsencrypt
+      - /:/var/log/nginx
