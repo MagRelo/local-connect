@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ssh": "ssh root@174.138.40.226"
+    "ssh": "ssh root@167.71.159.151"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MagRelo/ie-compose.git"
+    "url": "git+https://github.com/MagRelo/local-connect.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MagRelo/ie-compose/issues"
+    "url": "https://github.com/MagRelo/local-connect/issues"
   },
-  "homepage": "https://github.com/MagRelo/ie-compose#readme"
+  "homepage": "https://github.com/MagRelo/local-connect#readme"
 }
